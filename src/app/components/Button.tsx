@@ -10,7 +10,7 @@ export function Button() {
     return(
         <div>
             {visible && <button onClick={(e) => greet(e)} className="bg-blue-400 p-2 rounded hover:bg-blue-500 transition">Click me</button>}
-            {!visible && <p className="text-2xl my-2">You are someone special to me 🫣🤗❤️</p>}
+            {!visible && <p className="text-2xl my-2 text-center">You are someone special to me 🫣🤗❤️</p>}
         </div>
     )
 }
