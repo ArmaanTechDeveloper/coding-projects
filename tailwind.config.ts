@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        dil: {
+          '0%': { fontSize: '1.5rem'},
+          '100%': { fontSize:  '2rem' }
+        }
+      },
+      animation: {
+        dil: "dil 0.5s ease-in-out infinite alternate",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
